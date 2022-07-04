@@ -1,0 +1,98 @@
+#nav {
+    backdrop-filter: blur(180px);
+}
+
+
+#bg {
+
+background-color: rgb(250, 240, 245);
+
+}
+
+
+#para{
+
+padding-top: 20px;
+padding-left: 27%;
+padding-right: 27%;
+text-shadow: 1px 1px;
+
+
+}
+
+
+#idpara{
+
+padding-top: 10%;
+text-shadow: 2px 1px;
+
+
+}
+
+
+.css{
+   
+ font-family: "arial";
+ margin: 10px 0 0 10px;
+ white-space: nowrap;
+ overflow: hidden;
+ width: 100%;
+ animation: animtext 4s steps(80, end); 
+   
+}
+@keyframes animtext { 
+ from {
+     width: 0;
+    transition: all 2s ease-in-out;
+ } 
+} 
+
+
+.cs{
+    
+ font-family: "arial";
+ margin: 10px 0 0 10px;
+ white-space: nowrap;
+ overflow: hidden;
+ width: 100%;
+ animation: animtext 4s steps(80, end); 
+   
+}
+@keyframes animtext { 
+ from {
+     width: 0;
+    transition: all 2s ease-in-out;
+ } 
+} 
+
+/* 
+#end {
+   
+    backdrop-filter: blur(180px);
+    border-color: rgb(241, 235, 235);
+
+} */
+
+
+.containers {
+    position: relative;
+   
+  }
+  
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+       /* rgb(255, 217, 45); */
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+
+
+  #images{
+
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    filter: blur(3px);
+  }

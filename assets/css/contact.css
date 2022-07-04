@@ -1,0 +1,30 @@
+hr.contact{
+
+    width: 6%;
+    margin-left: 47%;
+    margin-top: 10px;
+    height: 2px;
+    background-color: goldenrod;
+
+    
+
+}
+
+
+
+
+#nav {
+    /* -webkit-backdrop-filter: blur(8px); */
+    backdrop-filter: blur(180px);
+    /* border-style: solid ;
+
+    border-color: rgb(241, 235, 235) ;*/
+}
+
+
+#bg {
+
+    background-color: rgb(250, 240, 245);
+    
+    }
+    
